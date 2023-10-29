@@ -1,0 +1,115 @@
+.static, .relative, .absolute, .fixed,.sticky{
+    width:150px;
+    height:150px;
+    background-color:aqua;
+    margin-bottom:20px;
+}
+.static{
+    position:static;
+    left:200px;
+}
+.relative{
+    position:relative;
+    left:200px;
+}
+.absolute{
+    position:absolute;
+    right:0;
+    top:0;
+}
+.fixed{
+    position:fixed;
+    bottom:0;
+}
+.sticky{
+    position:sticky;
+    top:100px;
+}
+.relative:hover{
+    left:400px;
+    top:-100px;
+}
+.header{
+    padding:15px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position:sticky;
+    top:0;
+    background-color:#fff;
+	z-index:999;
+}
+.header .menu li{
+    display:inline-block;
+    margin-right:25px;
+}
+.header .menu a{
+    color:black;
+    font-size:25px;
+    text-decoration:none;
+}
+.home, .about, .contact{
+    height:100vh;
+}
+.home{
+    background-color:brown;
+}
+.about{
+    background-color:white;
+}
+.service{
+    padding:20px 0;
+	background-color:white;
+}
+.service .product img{
+	width:100%;
+}
+.contact{
+    background-color:white;
+}
+.service .info{
+	position:absolute;
+	bottom:0;
+	background-color:rgba(0,0,0,0.5);
+	color:#fff;
+	width:100%;
+	padding:10px;
+}
+.service .product{
+	position:relative;
+}
+.footer{
+	padding:30px 0px;
+}
+.divider{
+	width:80px;
+	height:3px;
+}
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    .swiper {
+      width: 50%;
+      height: 10%;
+	  background-color:white;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+	.about{
+		background-color:white;
+	}
+	.
